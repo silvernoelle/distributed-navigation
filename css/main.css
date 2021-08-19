@@ -1,11 +1,53 @@
 html {
-  box-sizing: border-box;
-  background-color: #fff;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1.5rem;
+box-sizing: border-box;
+font-family: sans-serif;
+line-height: 1.5;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+box-sizing: inherit;
+}
+
+body {
+margin: 0;
+}
+
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #e2e2e2;
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+
+nav li {
+padding: 0 1em;
+}
+
+nav a {
+text-decoration: none;
+color: #0074d9;
+}
+
+nav a:hover {
+color: #fff;
+}
+
+header img {
+width: 2rem;
+order: -1;
+margin-left: -2rem;
+}
+
+header h1 {
+margin-left: -3rem;
+}
+
+header p {
+height: auto;
 }
